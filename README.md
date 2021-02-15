@@ -1,6 +1,12 @@
 # Mention-validator
-It is library that support **Discord.js** comunity!
-It will help you guys to convert those **string** that includes discord mentions form to just a simple **ID**!
+It is library that support **Discord.js** community!
+It will help you guys to convert those **string** that includes discord mentions string form to a simple **ID**!
+
+# How to install it
+You can simple install with this command here
+```console
+npm install mention-validator
+```
 
 # How to do it?
 
@@ -18,4 +24,6 @@ const result = convert('<@!123456789>')
 // 123456789
 ```
 
-*If you want to visit my personal discord bot [click here](https://moddy.js.org)*
+**Discord bot [click here](https://moddy.js.org)**
+**My github profile [click here](https://github.com/CutieCat6778)**
+**Personal profile [click here](https://moddy.js.org/owner)**
