@@ -2,7 +2,7 @@
 It is library that support **Discord.js** comunity!
 It will help you guys to convert those **string** that includes discord mentions form to just a simple **ID**!
 
-#How to do it?
+# How to do it?
 
 **Detailed convert**
 ```js
