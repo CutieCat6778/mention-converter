@@ -1,0 +1,28 @@
+{
+  "name": "mention-validator",
+  "version": "0.0.1",
+  "description": "It is a String that convert mentions things",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CutieCat6778/mention-validator.git"
+  },
+  "keywords": [
+    "discord",
+    "mentions",
+    "string",
+    "converter"
+  ],
+  "author": "Cat_#9289",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/CutieCat6778/mention-validator/issues"
+  },
+  "homepage": "https://github.com/CutieCat6778/mention-validator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
