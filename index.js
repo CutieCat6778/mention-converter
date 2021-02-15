@@ -37,18 +37,18 @@ const f = (value, obj) => {
                 } else if (value.includes("#")) {
                     value = {id: value.slice(2, -1), detail: {type: "channel", mobile: undefined}}
                 } else {
-                    return new Error('The string is provided is invalid!');
+                    return new Error('The string provided is invalid!');
                 }
             } else {
                 if (isNaN(value) == false) {
                     value = {id: value, detail: {type: undefined, mobile: undefined}}
                 } else if (isNaN(value) == true) {
-                    return new Error('The string is provided is invalid!');
+                    return new Error('The string provided is invalid!');
                 } else {
-                    return new Error('The string is provided is invalid!');
+                    return new Error('The string provided is invalid!');
                 }
             }
-            if(!f(value.id)) return new Error('The string is provided is invalid!');
+            if(!f(value.id)) return new Error('The string provided is invalid!');
             return value;
         }else if(typeof(value) == "object"){
             const list = [];
@@ -64,18 +64,18 @@ const f = (value, obj) => {
                     } else if (v.includes("#")) {
                         v = {id: v.slice(2, -1), detail: {type: "channel", mobile: undefined}}
                     } else {
-                        return new Error('The string is provided is invalid!');
+                        return new Error('The string provided is invalid!');
                     }
                 } else {
                     if (isNaN(v) == false) {
                         v = {id: v.slice(2, -1), detail: {type: undefined, mobile: undefined}}
                     } else if (isNaN(v) == true) {
-                        return new Error('The string is provided is invalid!');
+                        return new Error('The string provided is invalid!');
                     } else {
-                        return new Error('The string is provided is invalid!');
+                        return new Error('The string provided is invalid!');
                     }
                 }
-                if(!f(v.id)) return new Error('The string is provided is invalid!');
+                if(!f(v.id)) return new Error('The string provided is invalid!');
                 list.push(v);
             })
             return list;
@@ -95,17 +95,17 @@ const f = (value, obj) => {
                 } else if (value.includes("#")) {
                     value = value.slice(2, -1);
                 } else {
-                    return new Error('The string is provided is invalid!');
+                    return new Error('The string provided is invalid!');
                 }
-                if(!f(value)) return new Error('The string is provided is invalid!');
+                if(!f(value)) return new Error('The string provided is invalid!');
                 return value;
             } else {
                 if (isNaN(value) == false) {
                     return value.toString();
                 } else if (isNaN(value) == true) {
-                    return new Error('The string is provided is invalid!');
+                    return new Error('The string provided is invalid!');
                 } else {
-                    return new Error('The string is provided is invalid!');
+                    return new Error('The string provided is invalid!');
                 }
             }
         }else if(typeof(value) == "object"){
@@ -122,18 +122,18 @@ const f = (value, obj) => {
                     } else if (v.includes("#")) {
                         v = v.slice(2, -1);
                     } else {
-                        return new Error('The string is provided is invalid!');
+                        return new Error('The string provided is invalid!');
                     }
                 } else {
                     if (isNaN(v) == false) {
                         null;
                     } else if (isNaN(v) == true) {
-                        return new Error('The string is provided is invalid!');
+                        return new Error('The string provided is invalid!');
                     } else {
-                        return new Error('The string is provided is invalid!');
+                        return new Error('The string provided is invalid!');
                     }
                 }
-                if(!f(v)) return new Error('The string is provided is invalid!');
+                if(!f(v)) return new Error('The string provided is invalid!');
                 return list.push(v);
             })
             return list;

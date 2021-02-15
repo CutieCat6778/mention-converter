@@ -1,6 +1,6 @@
 {
   "name": "mention-validator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "It is a String that convert mentions things",
   "main": "index.js",
   "bin": "index.js",
