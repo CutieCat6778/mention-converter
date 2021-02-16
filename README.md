@@ -1,11 +1,11 @@
-# Mention-validator
+# Mention-converter
 It is library that support **Discord.js** community!
 It will help you guys to convert those **string** that includes discord mentions string form to a simple **ID**!
 
 # How to install it
 You can simple install with this command here
 ```
-npm install mention-validator
+npm install mention-converter
 ```
 
 # How to do it?
