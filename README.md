@@ -5,22 +5,22 @@ It will help you guys to convert those **string** that includes discord mentions
 # How to install it
 You can simple install with this command here
 ```
-npm install mention-validator
+npm install mention-converter
 ```
 
 # How to do it?
 
 **Detailed**
 ```js
-const validator = require('mention-validator');
-const result = validator('<@!123456789>', {detail: true})
+const converter = require('mention-converter');
+const result = converter('<@!123456789>', {detail: true})
 // {"id": "123456789", detail: {type: "user", mobile: false}}
 ```
 
 **Simpled**
 ```js
-const validator = require('mention-validator');
-const result = validator('<@!123456789>')
+const converter = require('mention-converter');
+const result = converter('<@!123456789>')
 // 123456789
 ```
 

@@ -1,6 +1,6 @@
 {
-  "name": "mention-validator",
-  "version": "0.0.8",
+  "name": "mention-converter",
+  "version": "0.0.1",
   "description": "It is a String that convert mentions things",
   "main": "index.js",
   "bin": "index.js",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CutieCat6778/mention-validator.git"
+    "url": "git+https://github.com/CutieCat6778/mention-converter.git"
   },
   "keywords": [
     "discord",
     "mentions",
     "string",
-    "validator"
+    "converter"
   ],
   "author": "Cat_#9289",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/CutieCat6778/mention-validator/issues"
+    "url": "https://github.com/CutieCat6778/mention-converter/issues"
   },
-  "homepage": "https://github.com/CutieCat6778/mention-validator#readme",
+  "homepage": "https://github.com/CutieCat6778/mention-converter#readme",
   "devDependencies": {}
 }
